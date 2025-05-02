@@ -1086,19 +1086,7 @@
                 height: 50px;
             }
 
-            nav {
-                position: fixed;
-                top: 0;
-                right: -300px;
-                width: 250px;
-                height: 100vh;
-                background-color: var(--black);
-                padding: 80px 20px 30px;
-                transition: all 0.4s ease;
-                z
-
-
-nav {
+         nav {
                 position: fixed;
                 top: 0;
                 right: -300px;
@@ -1653,7 +1641,9 @@ nav {
     <a href="#home" class="back-to-top" id="backToTop">
         <i class="fas fa-chevron-up"></i>
     </a>
-     <script>
+
+    <!-- JavaScript -->
+    <script>
         // Navigation Toggle
         const menuBtn = document.getElementById('menuBtn');
         const mainNav = document.getElementById('mainNav');
@@ -1799,7 +1789,7 @@ nav {
                 if (existingItem) {
                     existingItem.quantity += 1;
                 }
-              onst existingItem = cart.find(item => item.id === productId);
+const existingItem = cart.find(item => item.id === productId);
                 if (existingItem) {
                     existingItem.quantity += 1;
                 } else {
